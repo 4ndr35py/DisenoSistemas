@@ -1,0 +1,22 @@
+﻿Requerimientos Funcionales
+* El sistema debe permitir el registro de guías de turismo, validando su CUIT mediante el Web Service de AFIP.
+* El sistema debe permitir a los guías registrar nuevos servicios turísticos.
+* El sistema debe permitir el registro de clientes.
+* El sistema debe permitir al usuario visualizar los servicios disponibles, filtrando por categorías, fecha, hora, precio y ubicación.
+* El sistema debe permitir al usuario contratar servicios para un grupo de personas, proporcionando nombre, apellido, DNI y datos específicos requeridos por el servicio.
+* El sistema debe calcular los montos a pagar por los clientes, utilizando datos previstos por el guía turístico.
+* El sistema debe brindar al usuario la posibilidad de pagar la totalidad o una seña del 50% al comprar un servicio.
+* El sistema debe verificar la transacción con el Gateway de la tarjeta de crédito, debe
+enviar un email cuando el pago es exitoso.
+* El sistema debe brindar la opción de múltiples pagos procediendo a la seña y debe asegurar la totalidad del pago previo a la realización del servicio.
+* El sistema debe permitir al guía acreditar las asistencias de las personas.
+* El sistema debe permitir al usuario realizar un feedback o comentario de las actividades realizadas.
+* El sistema debe ofrecer al usuario agendar sus reservas en Google Calendar.
+Requerimientos No Funcionales
+* El sistema debe otorgar los permisos necesarios discriminando por tipo de usuario.
+* El sistema debe estar disponible en todo momento.
+* El sistema debe proteger los datos personales y de transacciones.
+* El sistema debe permitir la expansión de memoria y capacidad de procesamiento.
+* El sistema debe integrarse  con el Web Service de AFIP.
+* El sistema debe integrarse con un Gateway de tarjeta de crédito.
+* El sistema debe enviar facturas de pago por correo electrónico.
